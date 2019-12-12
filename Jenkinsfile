@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('error') {
       steps {
-        sh 'echo "hello_eka"'
+        ws(dir: '/u01/docker_automation/platform')
       }
     }
 
