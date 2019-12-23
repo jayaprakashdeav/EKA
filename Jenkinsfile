@@ -1,7 +1,7 @@
 pipeline {
   agent any
   stages {
-    stage('Integ_Env') {
+    stage('Diffrent_Environment') {
       parallel {
         stage('Integ_Env') {
           steps {
